@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Around the Pond is an outdoor event center in Somerset, Pennsylvania, available for private rentals and seasonal public events.">
+  <title>Around the Pond | Outdoor Event Center</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top">Around the Pond</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#summer">Ice Cream</a>
+        <a href="#visit">Visit</a>
+      </div>
+    </nav>
+
+    <div class="hero-content container" id="top">
+      <p class="eyebrow">Somerset, Pennsylvania</p>
+      <h1>Gather, celebrate, and make memories around the pond.</h1>
+      <p class="hero-text">
+        A scenic outdoor event center for seasonal public events, private rentals,
+        family celebrations, and community gatherings.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="tel:+17247079639">Call 724-707-9639</a>
+        <a class="button secondary" href="https://maps.app.goo.gl/Zqp5o9BGJYcZ39Aw7" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="about">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Welcome</p>
+          <h2>A special place for every season</h2>
+        </div>
+        <div>
+          <p>
+            Around the Pond is an outdoor event center that hosts public Halloween
+            and Christmas events and is also available to rent for your own event.
+            The peaceful property offers room to gather, play, eat, and enjoy the outdoors.
+          </p>
+          <p>
+            Whether you are planning a family celebration, community event, reunion,
+            or another special occasion, Around the Pond provides a flexible and memorable setting.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted" id="features">
+      <div class="container">
+        <p class="eyebrow">Property features</p>
+        <h2>Everything you need for a comfortable event</h2>
+
+        <div class="feature-grid">
+          <article class="card">
+            <h3>Large pavilion</h3>
+            <p>A spacious covered area for meals, celebrations, and group activities.</p>
+          </article>
+          <article class="card">
+            <h3>Professional kitchen</h3>
+            <p>A full kitchen designed to support catered events and food preparation.</p>
+          </article>
+          <article class="card">
+            <h3>Restrooms</h3>
+            <p>Separate men's and women's restrooms are available on the property.</p>
+          </article>
+          <article class="card">
+            <h3>Outdoor recreation</h3>
+            <p>Enjoy bocce courts, swings, open space, and a paved walking path.</p>
+          </article>
+          <article class="card">
+            <h3>Pond and fountain</h3>
+            <p>A scenic centerpiece with a fountain and a paved path around the pond.</p>
+          </article>
+          <article class="card">
+            <h3>Seasonal events</h3>
+            <p>Public Halloween and Christmas experiences bring the property to life.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="photo-section" aria-label="Pond at Around the Pond">
+      <img src="pond-fountain.jpg" alt="Pond with a fountain, trees, and paved path at Around the Pond">
+    </section>
+
+    <section class="section summer" id="summer">
+      <div class="container summer-box">
+        <div>
+          <p class="eyebrow">Summer treat</p>
+          <h2>Ice cream by the pond</h2>
+          <p>
+            During the summer, stop by for ice cream Monday through Thursday
+            from <strong>11:00 AM to 7:00 PM</strong>.
+          </p>
+        </div>
+        <a class="button primary" href="tel:+17247079639">Call before your visit</a>
+      </div>
+    </section>
+
+    <section class="section" id="visit">
+      <div class="container visit-grid">
+        <div>
+          <p class="eyebrow">Plan your visit</p>
+          <h2>Come see Around the Pond</h2>
+          <p class="address">
+            1337 Husband Rd<br>
+            Somerset, PA 15501
+          </p>
+          <p>
+            For rental availability, event information, or questions, call us directly.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <p class="contact-label">Phone</p>
+          <a class="contact-link" href="tel:+17247079639">724-707-9639</a>
+
+          <p class="contact-label">Address</p>
+          <p>1337 Husband Rd, Somerset, PA 15501</p>
+
+          <a class="button primary full" href="https://maps.app.goo.gl/Zqp5o9BGJYcZ39Aw7" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p><strong>Around the Pond</strong></p>
+      <p>Outdoor events, private rentals, and seasonal fun in Somerset, Pennsylvania.</p>
+      <p>&copy; <span id="year"></span> Around the Pond. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
